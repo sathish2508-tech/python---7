@@ -1,0 +1,4 @@
+word = input()
+lenght = len(word)
+for i in range(1, lenght + 1):
+    print(word[lenght - i] )
