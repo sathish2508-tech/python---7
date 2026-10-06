@@ -1,0 +1,7 @@
+N = int(input())
+M = int(input())
+s = ""
+for i in range(N, M + 1):
+    if (i % 2) == 1:
+        s = str(i) + " " + s 
+print(s)
