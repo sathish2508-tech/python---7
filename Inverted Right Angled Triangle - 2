@@ -1,0 +1,4 @@
+N = int(input())
+for i in range(N + 1):
+    v = str(N-i) + " "
+    print(v * (N-i))
