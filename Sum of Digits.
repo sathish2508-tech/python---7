@@ -1,0 +1,6 @@
+N = input()
+sum = 0
+lenght = len(N)
+for i in range(lenght):
+    sum = sum + int(N[i])
+print(sum)
