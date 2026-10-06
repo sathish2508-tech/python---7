@@ -1,0 +1,7 @@
+N = int(input())
+sum = 0
+for i in range(N):
+    M = int(input())
+    sum = M + sum
+avg = sum / N
+print(avg)
