@@ -1,0 +1,7 @@
+N = int(input())
+M = int(input())
+P = 1 
+for i in range(N, M + 1):
+    if (i % 3) == 0:
+        P = P * i 
+print(P)
