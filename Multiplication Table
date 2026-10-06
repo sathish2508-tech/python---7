@@ -1,0 +1,5 @@
+N = int(input())
+for i in range(1, 11):
+    v = str(N) + " " + str("x") + " " + str(i) + " " + str("=")
+    M = str(N * i)
+    print(v + " " + M)
