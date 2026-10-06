@@ -1,0 +1,8 @@
+M = 10
+sum = 0
+for i in range(M):
+    N = int(input())
+    sum = sum + N 
+avg = sum / M
+print(sum)
+print(avg)
