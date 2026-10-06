@@ -1,0 +1,6 @@
+A = input()
+B = ""
+lenght = len(A)
+for i in range(lenght):
+    B = B + A[i] + " "
+print(B)
