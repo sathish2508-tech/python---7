@@ -1,0 +1,4 @@
+N = int(input())
+C = int(input())
+V = N ** C 
+print(V)
